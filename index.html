@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="zomato1..css">
+	<link rel="icon" href="file:///C:/Users/user/Pictures/walpapers/coffee.13.jpg">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>Coffee Website</title>
+	<style>
+		.container
+		{
+			box-sizing: border-box;
+		}
+		.logo
+		{
+			color: white;
+		}
+		nav
+		{
+			display: flex;
+			justify-content: space-between;
+		}
+		nav ul li
+		{
+			display: inline-block;
+			padding: 10px;
+		}
+		nav ul li a
+		{
+			color: white;
+			text-decoration: none;
+			transition: 0.3s;
+		}
+		nav ul li a:hover
+		{
+			color: orange;
+		}
+		[class*="col-"]
+		{
+
+		float: left;
+
+		}
+
+	.col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+   .col-4 {width: 33.33%;}
+   .col-5 {width: 41.66%;}
+   .col-6 {width: 50%;}
+   .col-7 {width: 58.33%;}
+   .col-8 {width: 66.66%;}
+   .col-9 {width: 75%;}
+   .col-10 {width: 83.33%;}
+   .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    .s1
+    {
+    	background-color: black;
+    	height: 60px;
+    }
+    .s2
+	   {
+		background-image: url('file:///C:/Users/user/Pictures/walpapers/c7a3fa212a3f72127d02749563c93bb1.jpg');
+		height: 80vh;
+	    }
+	    .s2 .h1
+	    {
+	    	margin-left: 50px;
+	    	font-size: 50px;
+	    	margin-top: 50px;
+	    	color: brown;
+	    }
+	    .s2 .coff
+	    {
+	    	margin-left: 50px;
+	    	font-size: 50px;
+	    	color:white;
+	    	font-family: 'arial black';
+	    }
+	    .s2 p
+	    {
+	    	color: white;
+	    	margin-left: 50px;
+	    	font-size: 15px;
+	    	margin-top: 60px;
+	    }
+	    .btn
+	    {
+	   
+	    	margin-left: 50px;
+	    	padding: 15px 30px;
+	    	margin-top: 30px;
+	    	background-color: black;
+	    	color: white;
+	    	transition: 1s;
+	   
+	    }
+	    .btn:hover
+	    {
+	    	background-color: red;
+	    }
+	    .s3 .h3
+	    {
+	    	color: orange;
+	    	margin-left: 80px;
+	    	margin-top: 80px;
+	    	font-size: 50px;
+	    }
+	    .para
+	    {
+	    	color: black;
+	    text-align: center;
+	    	margin-top: 80px;
+	    	font-size: 20px;
+	    }
+	    .para1
+	    {
+	    	color: black;
+	        text-align: center;
+	    	margin-top: 80px;
+	    	font-size: 20px;
+	    }
+	    .s4
+	    {
+	    	background: url('file:///C:/Users/user/Pictures/walpapers/coffee-cup-coffee-beans-aroma-wallpaper-preview.jpg');
+	    	height: 500px;
+	    	background-size: cover;
+	    }
+	    .s5 .demo
+	    {
+	    	color: brown;
+	    	margin-left: 500px;
+	    	font-size: 50px;
+	    }
+	    .demo1
+	    {
+	    	color: black;
+	    	font-size: 20px;
+	    	margin-left: 130px;
+	         margin-top: 30px;
+	    }
+	    .s6
+	    {
+	    	
+	    	  height: 200px;
+	    	  position: relative;
+	    	  right: 5px;
+	    	}
+	    	.container1
+	    	{
+	    		align-items: center;
+	    		justify-content: center;
+	    		display: flex;
+	    	}
+	    	.container1 .card1
+	    	{
+	    		height: 200px;
+	    		width: 300px;
+	    		overflow: hidden;
+	    		position: relative;
+	    		height: 100%;
+	    		width: 100%;
+	    		transition: 0.3s ease-in-out;
+	    	}
+	    	.card1 img
+	    	{
+	    		height: 100%;
+	    		width: 100%;
+	    	}
+	    	.card1 .icon1
+	    	{
+	    		position: absolute;
+	    		top: 0;
+	    		left: 0;
+	    		display: flex;
+	    		justify-content: center;
+	    		align-items: center;
+	    		opacity: 0;
+	    		height: 100%;
+	    		width: 100%;
+	    		font-size: 50px;
+	    		color: white;
+	    		transition: 0.3s ease-in-out;
+	    		background: rgb(0, 0, 0,0.2);
+	    	}
+	    	.card1:hover .icon1
+	    	{
+	    		opacity: 1;
+	    		color: rgb(247, 114, 10);
+	    	}
+	    
+	    	.s7
+	    	{
+	    	
+	    		position: relative;
+	    		
+	    		height:200px;
+	    	
+	    	}
+	    	.container2
+	    	{
+	    		align-items: center;
+	    		justify-content: center;
+	    		display: flex;
+	    	}
+	    	.container2 .card2
+	    	{
+	    		height: 150px;
+	    		width: 300px;
+	    		overflow: hidden;
+	    		position: relative;
+	    		height: 100%;
+	    		width: 100%;
+	    		transition: 0.3s ease-in-out;
+	    	}
+	    	.card2 img
+	    	{
+	    		height: 80%;
+	    		width: 100%;
+	    	}
+	    	.card2 .icon2
+	    	{
+	    		position: absolute;
+	    		top: 0;
+	    		left: 0;
+	    		display: flex;
+	    		justify-content: center;
+	    		align-items: center;
+	    		opacity: 0;
+	    		height: 100%;
+	    		width: 100%;
+	    		font-size: 50px;
+	    		color: white;
+	    		transition: 0.3s ease-in-out;
+	    		background: rgb(0, 0, 0,0.2);
+	    	}
+	    	.card2:hover .icon2
+	    	{
+	    		opacity: 1;
+	    		color: rgb(247, 114, 10);
+	    	}
+	    	.s8
+	    	{
+	
+	    		position: relative;
+	    	      left: 4px;
+	    		height: 250px;
+
+	    	}
+	    	.container3
+	    	{
+	    		align-items: center;
+	    		justify-content: center;
+	    		display: flex;
+	    	}
+	    	.container3 .card3
+	    	{
+	    		height: 200px;
+	    		width: 300px;
+	    		overflow: hidden;
+	    		position: relative;
+	    		height: 100%;
+	    		width: 100%;
+	    		transition: 0.3s ease-in-out;
+	    	}
+	    	.card3 img
+	    	{
+	    		height: 100%;
+	    		width: 100%;
+	    	}
+	    	.card3 .icon3
+	    	{
+	    		position: absolute;
+	    		top: 0;
+	    		left: 0;
+	    		display: flex;
+	    		justify-content: center;
+	    		align-items: center;
+	    		opacity: 0;
+	    		height: 100%;
+	    		width: 100%;
+	    		font-size: 50px;
+	    		color: white;
+	    		transition: 0.3s ease-in-out;
+	    		background: rgb(0, 0, 0,0.2);
+	    	}
+	    	.card3:hover .icon3
+	    	{
+	    		opacity: 1;
+	    		color: rgb(247, 114, 10);
+	    	}
+
+	    	.container4
+	    	{
+	    		align-items: center;
+	    		justify-content: center;
+	    		display: flex;
+	    	}
+	    	.container4 .card4
+	    	{
+	    		height: 200px;
+	    		width: 300px;
+	    		overflow: hidden;
+	    		position: relative;
+	    		height: 100%;
+	    		width: 100%;
+	    		transition: 0.3s ease-in-out;
+	    	}
+	    	.card4 img
+	    	{
+	    		height: 100%;
+	    		width: 100%;
+	    	}
+	    	.card4 .icon4
+	    	{
+	    		position: absolute;
+	    		top: 0;
+	    		left: 0;
+	    		display: flex;
+	    		justify-content: center;
+	    		align-items: center;
+	    		opacity: 0;
+	    		height: 100%;
+	    		width: 100%;
+	    		font-size: 50px;
+	    		color: white;
+	    		transition: 0.3s ease-in-out;
+	    		background: rgb(0, 0, 0,0.2);
+	    	}
+	    	.card4:hover .icon4
+	    	{
+	    		opacity: 1;
+	    		color: rgb(247, 114, 10);
+	    	}
+	    	
+	    	.s9
+	         {
+	    		height: 250px;
+	    		position: relative;
+	    		margin-top: 10px;
+	    	}
+
+	    	.container5
+	    	{
+	    		align-items: center;
+	    		justify-content: center;
+	    		display: flex;
+	    	}
+	    	.container5 .card5
+	    	{
+	    		height: 200px;
+	    		width: 300px;
+	    		overflow: hidden;
+	    		position: relative;
+	    		height: 100%;
+	    		width: 100%;
+	    		transition: 0.3s ease-in-out;
+	    	}
+	    	.card5 img
+	    	{
+	    		height: 100%;
+	    		width: 100%;
+	    	}
+	    	.card5 .icon5
+	    	{
+	    		position: absolute;
+	    		top: 0;
+	    		left: 0;
+	    		display: flex;
+	    		justify-content: center;
+	    		align-items: center;
+	    		opacity: 0;
+	    		height: 100%;
+	    		width: 100%;
+	    		font-size: 50px;
+	    		color: white;
+	    		transition: 0.3s ease-in-out;
+	    		background: rgb(0, 0, 0,0.2);
+	    	}
+	    	.card5:hover .icon5
+	    	{
+	    		opacity: 1;
+	    		color: rgb(247, 114, 10);
+	    	}
+	   
+
+	    	.s10
+	    	{
+	    		position: relative;
+	    		left: 4px;
+	    		height: 250px;
+	    		margin-top: 10px;
+	    	}
+	    	.s11
+	    	{
+	    	
+	    		height: 250px;
+	    		position: relative;
+	    		right: 4px;
+	    		margin-top: 10px;
+	    	}
+	    	.container6
+	    	{
+	    		align-items: center;
+	    		justify-content: center;
+	    		display: flex;
+	    	}
+	    	.container6 .card6
+	    	{
+	    		height: 200px;
+	    		width: 300px;
+	    		overflow: hidden;
+	    		position: relative;
+	    		height: 100%;
+	    		width: 100%;
+	    		transition: 0.3s ease-in-out;
+	    	}
+	    	.card6 img
+	    	{
+	    		height: 100%;
+	    		width: 100%;
+	    	}
+	    	.card6 .icon6
+	    	{
+	    		position: absolute;
+	    		top: 0;
+	    		left: 0;
+	    		display: flex;
+	    		justify-content: center;
+	    		align-items: center;
+	    		opacity: 0;
+	    		height: 100%;
+	    		width: 100%;
+	    		font-size: 50px;
+	    		color: white;
+	    		transition: 0.3s ease-in-out;
+	    		background: rgb(0, 0, 0,0.2);
+	    	}
+	    	.card6:hover .icon6
+	    	{
+	    		opacity: 1;
+	    		color: rgb(247, 114, 10);
+	    	}
+	   
+	    	.s12
+	    	{
+	    		
+	    		height: 250px;
+	    		position: relative;
+	    		right: 2px;
+	    		margin-top: 10px;
+	    	}
+	    	.container7
+	    	{
+	    		align-items: center;
+	    		justify-content: center;
+	    		display: flex;
+	    	}
+	    	.container7 .card7
+	    	{
+	    		height: 200px;
+	    		width: 300px;
+	    		overflow: hidden;
+	    		position: relative;
+	    		height: 100%;
+	    		width: 100%;
+	    		transition: 0.3s ease-in-out;
+	    	}
+	    	.card7 img
+	    	{
+	    		height: 100%;
+	    		width: 100%;
+	    	}
+	    	.card7 .icon7
+	    	{
+	    		position: absolute;
+	    		top: 0;
+	    		left: 0;
+	    		display: flex;
+	    		justify-content: center;
+	    		align-items: center;
+	    		opacity: 0;
+	    		height: 100%;
+	    		width: 100%;
+	    		font-size: 50px;
+	    		color: white;
+	    		transition: 0.3s ease-in-out;
+	    		background: rgb(0, 0, 0,0.2);
+	    	}
+	    	.card7:hover .icon7
+	    	{
+	    		opacity: 1;
+	    		color: rgb(247, 114, 10);
+	    	}
+	    	.s13
+	    	{
+	    	
+	    		height: 250px;
+	    		position: relative;
+	    		left: 4px;
+	    		margin-top: 10px;
+	    	}
+	    	.container8
+	    	{
+	    		align-items: center;
+	    		justify-content: center;
+	    		display: flex;
+	    	}
+	    	.container8 .card8
+	    	{
+	    		height: 200px;
+	    		width: 300px;
+	    		overflow: hidden;
+	    		position: relative;
+	    		height: 100%;
+	    		width: 100%;
+	    		transition: 0.3s ease-in-out;
+	    	}
+	    	.card8 img
+	    	{
+	    		height: 100%;
+	    		width: 100%;
+	    	}
+	    	.card8 .icon8
+	    	{
+	    		position: absolute;
+	    		top: 0;
+	    		left: 0;
+	    		display: flex;
+	    		justify-content: center;
+	    		align-items: center;
+	    		opacity: 0;
+	    		height: 100%;
+	    		width: 100%;
+	    		font-size: 50px;
+	    		color: white;
+	    		transition: 0.3s ease-in-out;
+	    		background: rgb(0, 0, 0,0.2);
+	    	}
+	    	.card8:hover .icon8
+	    	{
+	    		opacity: 1;
+	    		color: rgb(247, 114, 10);
+	    	}
+	        .s14
+	        {
+	        
+	        	height: 250px;
+	        	position: relative;
+	           right: 4px;
+	        	margin-top: 10px;
+	        }
+
+	    	.container9
+	    	{
+	    		align-items: center;
+	    		justify-content: center;
+	    		display: flex;
+	    	}
+	    	.container9 .card9
+	    	{
+	    		height: 200px;
+	    		width: 300px;
+	    		overflow: hidden;
+	    		position: relative;
+	    		height: 100%;
+	    		width: 100%;
+	    		transition: 0.3s ease-in-out;
+	    	}
+	    	.card9 img
+	    	{
+	    		height: 100%;
+	    		width: 100%;
+	    	}
+	    	.card9 .icon9
+	    	{
+	    		position: absolute;
+	    		top: 0;
+	    		left: 0;
+	    		display: flex;
+	    		justify-content: center;
+	    		align-items: center;
+	    		opacity: 0;
+	    		height: 100%;
+	    		width: 100%;
+	    		font-size: 50px;
+	    		color: white;
+	    		transition: 0.3s ease-in-out;
+	    		background: rgb(0, 0, 0,0.2);
+	    	}
+	    	.card9:hover .icon9
+	    	{
+	    		opacity: 1;
+	    		color: rgb(247, 114, 10);
+	    	}
+	    	.btn3
+	    	{
+	    		background-color: black;
+	    		margin-top:40px;
+	    		margin-left: 600px;
+	    		color: white;
+	    		outline: none;
+	    		border: none;
+	    		cursor: pointer;
+	    		transition: 0.3s ease-in-out;
+	    		padding:15px 30px;
+	    	}
+	    	.btn3:hover
+	    	{
+	    		background-color:rgb(247, 114, 10) ;
+	    		cursor: pointer;
+	    	}
+	   
+
+           .card10
+           {
+           	height: 300px;
+           	width: 300px;
+            top:20px;
+            margin-left: 100px;
+           	position: relative;
+           	left: 10px;
+           	flex-direction: column;
+           	display: flex;
+           	justify-content: center;
+           	align-items: center;
+           	transition: 0.3s ease-in-out;
+           	background-color: rgb(247, 114, 10);
+           }
+           .card10 i
+           {
+           	font-size: 50px;
+           }
+           .card10:hover
+           {
+             background-color: white;
+             height: auto;
+
+           }
+           .card10 .btn4
+           {
+           	background-color: black;
+           	color: white;
+           	outline: none;
+           	border: none;
+           	transition: 2s ease-in-out;
+           	padding: 15px 30px;
+           	margin-top: 10px;
+           }
+           .btn4:hover
+           {
+           	background-color: rgb(247, 114, 10);
+           	cursor: pointer;
+           }
+              .card11
+           {
+           	height: 300px;
+           	width: 300px;
+            top:20px;
+           	position: relative;
+           	left: 10px;
+           	flex-direction: column;
+           	display: flex;
+           	margin-left: 100px;
+           	justify-content: center;
+           	align-items: center;
+           	transition: 0.3s ease-in-out;
+           	background-color: rgb(247, 114, 10);
+           }
+           .card11 i
+           {
+           	font-size: 50px;
+           }
+           .card11:hover
+           {
+             background-color: white;
+             height: auto;
+
+           }
+           .card11 .btn5
+           {
+           	background-color: black;
+           	color: white;
+           	outline: none;
+           	border: none;
+           	transition: 2s ease-in-out;
+           	padding: 15px 30px;
+           	margin-top: 10px;
+           }
+           .btn5:hover
+           {
+           	background-color: rgb(247, 114, 10);
+           	cursor: pointer;
+           }
+           .card12
+           {
+           	height: 300px;
+           	width: 300px;
+            top:20px;
+           	position: relative;
+           	left: 10px; 
+           	flex-direction: column;
+           	display: flex;
+           	margin-left: 100px;
+           	justify-content: center;
+           	align-items: center;
+           	transition: 0.3s ease-in-out;
+           	background-color: rgb(247, 114, 10);
+           }
+           .card12 i
+           {
+           	font-size: 50px;
+           }
+           .card12:hover
+           {
+             background-color: white;
+             height: auto;
+
+           }
+           .card12 .btn6
+           {
+           	background-color: black;
+           	color: white;
+           	outline: none;
+           	border: none;
+           	transition: 2s ease-in-out;
+           	padding: 15px 30px;
+           	margin-top: 10px;
+           }
+           .btn6:hover
+           {
+           	background-color: rgb(247, 114, 10);
+           	cursor: pointer;
+           }
+           .a1 h1
+           {
+           	font-size: 50px;
+           	font-family: 'Arial Black';
+           	color: brown;
+           	margin-left: 100px;
+           	margin-top: 80px;
+           
+          
+
+           }
+           .a1  p
+          {
+          	margin-left: 80px;
+          	font-size: 20px;
+          	margin-top: 30px;
+          }
+          .a2 h1
+          {
+          	color: rgb(247, 114, 10);
+          	font-size: 30px;
+          	
+          }
+          .a2 p
+          {
+          margin-top: 20px;
+          border-style: solid ;
+          font-family: 'Calibri';
+          margin-right: 100px;
+          }
+          .cont .cont1
+          {
+          	color: black;
+          	text-align: center;
+          	font-size: 40px;
+
+          }
+          form
+          {
+          	background: url('C:/Users/user/Pictures/walpapers/coffee.11.jpg');
+          	background-size: cover;
+          	background-repeat: no-repeat;
+          }
+          input
+          {
+
+          	padding: 20px;
+          	margin: 20px;
+          	background-color: white;
+          	font-size: 20px;
+          	
+          }
+          .b1
+         {
+	         padding: 15px 30px;
+	         margin: 10px;
+	         border: none;
+	         color: black;
+	         font-size: 15px;
+	         margin-left: 30px;
+           transition: 0.3s;
+	         background-color: rgb(247, 114, 10);
+	         outline: none;
+           }
+        .b1:hover
+   {
+   	color: red;
+   }
+   .about
+		{
+			margin-top: 10px;
+			background-color: black;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.footer
+		{
+		 height: 300px;
+			width: 80%;
+			padding-top: 10px;
+			margin-left: 30px;
+	
+		}
+		.about .footer ul li
+		{
+			line-height: 30px;
+			color: black;
+			margin-right: 10px;
+
+		}
+
+        
+        
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="s1">
+			<nav>
+				<div class="logo">
+					<h1>Great Coffee</h1>
+				</div>
+				<ul>
+					<li><a href="">HOME</a></li>
+					<li><a href="">ABOUT US</a></li>
+					<li><a href="">SERVICE</a></li>
+					<li><a href="">GALLERY</a></li>
+					<li><a href="">CONTRACT</a></li>
+					<li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+				</ul>
+			</nav>
+		</div>
+	
+		<div class="s2 col-12">
+			<h1 class="h1">Out Standing</h1>
+			<h1 class="coff">Coffee Shop</h1>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br> Totam est qui, voluptatum explicabo?<br> Eius molestias eum voluptatibus illo nesciunt, <br>vero ullam? Labore debitis perferendis<br> ipsum, hic, amet dolores repellendus dolorum!</p>
+				<div>
+					<button class="btn">
+						Learn  More
+					</button>
+				</div>
+		</div>
+		<div class="s3 col-6">
+			<h1 class="h3">About Us</h1>
+			<p class="para">Full cleaning and housekeeping services for companies <br>and households.</p>
+			<p class="para1">Lorem Ipsum is simply dummy text of the printing and typesetting<br> industry. Lorem Ipsum has been the industry's standard dummy <br>text.Lorem Ipsum is simply</p>
+		</div>
+		<div class="s4 col-6">4</div>
+		<div class="s5 col-12">
+			<h1 class="demo">
+				Our Gallery
+			</h1>
+			<p class="demo1">Lorem Ipsum is simply dummy text of printing typesetting ststry lorem Ipsum the industry'ndard dummy text ever since of the 1500s, when an<br>unknown printer took a galley of type and scra make a type specimen book. It has
+			</p>
+		</div>
+		<div class="s6 col-4">
+			<div class="container1">
+				<div class="card1">
+					<img src="file:///C:/Users/user/Pictures/walpapers/coffee.13.jpg" alt="">
+					<div class="icon1">
+					<i class="fa-solid fa-magnifying-glass"></i>	
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="s7 col-4">
+			<div class="container2">
+				<div class="card2">	
+                 <img src="file:///C:/Users/user/Pictures/walpapers/coffee.6.jpg" alt="">
+                 <div class="icon2">
+                 	<i class="fa-solid fa-magnifying-glass"></i>
+                 </div>
+				</div>
+			</div>
+		</div>
+		<div class="s8 col-4">
+			<div class="container3">
+				<div class="card3">
+					<img src="file:///C:/Users/user/Pictures/walpapers/coffee.7.jpg" alt="">
+					<div class="icon3"><i class="fa-solid fa-magnifying-glass"></i>
+						</div>
+				</div>
+			</div>
+		</div>
+		<div class="s9 col-4">
+			<div class="container4">
+				<div class="card4">
+					<img src="file:///C:/Users/user/Pictures/walpapers/coffee.5.jpg"alt="">
+					<div class="icon4">
+						<i class="fa-solid fa-magnifying-glass"></i>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="s10 col-4">
+			<div class="container5">
+				<div class="card5">	
+					<img src="file:///C:/Users/user/Pictures/walpapers/coffee.4.jpg" alt="">
+					<div class="icon5">
+	               <i class="fa-solid fa-magnifying-glass"></i>
+											
+					</div></div>
+			</div>
+		</div>
+		<div class="s11 col-4">
+			<div class="container6">
+				<div class="card6">	
+					<img src="file:///C:/Users/user/Pictures/walpapers/coffee-01.jpg" alt="">
+					<div class="icon6">
+					<i class="fa-solid fa-magnifying-glass"></i>	
+					</div></div>
+				
+			</div>
+		</div>
+		<div class="s12 col-4">
+			<div class="container7">
+				<div class="card7">	
+					<img src="file:///C:/Users/user/Pictures/walpapers/coffee.8.jpg" alt="">
+					<div class="icon7">
+						<i class="fa-solid fa-magnifying-glass"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="s13 col-4"> <div class="container8">	<div class="card8">
+		     <img src="file:///C:/Users/user/Pictures/walpapers/coffee.10.jpg" alt="">	
+		     <div class="icon8">
+		     	<i class="fa-solid fa-magnifying-glass"></i>
+		 </div>
+		</div>
+	    </div>
+       </div>
+		<div class="s14 col-4">
+			<div class="container9">
+				<div class="card9">
+					<img src="file:///C:/Users/user/Pictures/walpapers/coffee.11.jpg" alt="">
+					<div class="icon9">
+						<i class="fa-solid fa-magnifying-glass"></i>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+	<div class="s15 col-12">
+		<button class="btn3">
+			SEE MORE
+		</button>
+	</div>
+	
+	<div class="card10 col-4">
+		<i class="fa-solid fa-mug-hot icon"></i>
+		<h1>Original Coffee</h1>
+		<p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea</p>
+		<div>
+			<button class="btn4">
+				READ MORE
+			</button>
+		</div>
+	</div>
+	<div class="card11 col-4">
+     <i class="fa-solid fa-mug-saucer"></i>
+		<h1>Original Coffee</h1>
+		<p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea</p>
+		<div>
+			<button class="btn5">
+				READ MORE
+			</button>
+		</div>
+	</div>
+	<div class="card12 col-4 ">
+		<i class="fa-solid fa-mug-hot icon"></i>
+		<h1>Original Coffee</h1>
+		<p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea</p>
+		<div>
+			<button class="btn6">
+				READ MORE
+			</button>
+		</div>
+	</div>
+	</div>
+
+	<div class="a1 col-12">
+		<h1>Testimonial</h1>
+		<p>Eeven slightly believable. If you are going to use a passage of Lorem Ipsum, you need to
+
+</p>
+<div class="a2">
+	<h1>MONILA </h1>
+	<p>	many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected<br> humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum,<br> you need to be sure there isn't anything embarrassing hidden in the middle of text. All themany variations of passages of Lorem Ipsum<br> available, but the majority have suffered alteration in some embarrassing hidden in the middle of text. All the</p>
+</div>
+<div class="cont">
+	<h1 class="cont1">Contact Us</h1>
+</div>
+<form>
+<table>
+	<tr>
+	<td><input type="text" placeholder="Name"></td>
+	</tr>
+	<tr>
+	<td><input type="text" placeholder="Email"></td>
+	</tr>
+	<tr>
+	<td><input type="text" placeholder="Phone Number"></td>
+	</tr>
+	<tr>
+	<td><input type="text" placeholder="Message"></td>
+	</tr>
+</table>
+<button class="b1"> SEND</button>
+</form>
+<div class="about">
+		<div class="footer">
+			<ul>
+				<li><a href=""><h4>ABOUT</h4></a></li>
+				<li><a href="">consectetur adipiscing elit, sed do<br> eiusmod tempor incididunt ut labore<br> et dolore magna aliqua. Ut enim ad<br> minim veniam, quis nostrud<br> exercitation u</a></li>
+				
+			</ul>
+		</div>
+		<div class="footer">
+		<ul>
+			<li><a href="">MENU</a></li>
+            <li><a href="">Home</a></li>
+             <li><a href="">About Us</a></li>
+             <li><a href="">Gallery</a></li>
+              <li><a href="">Services</a></li>
+              <li><a href="">Contract us</a></li>
+		</ul>
+			</div>
+		<div class="footer">
+		<ul>
+			<li><a href="">USEFUL LINK</a></li>
+			<li><a href="">Adipiscing</a></li>
+			<li><a href="">Elit, sed do </a></li>
+			<li><a href=""> Eiusmod</a></li>
+			<li><a href="">Tempor </a></li>
+			<li><a href="">incididunt</a></li>
+		</ul>
+		</div>
+		<div class="footer">
+		<ul>
+			<li><a href="">CONTRACT US</a></li>
+			<li><a href="">Address : Loram Ipusm</a></li>
+			<li><a href="">Call : +01 1234567890</a></li>
+			<li><a href="">Email : demo@gmail.com</a></li>
+	
+			</ul>
+		</div>
+</div>
+
+
+	
+</body>
+</html>
+
+	
+	
+	
+	
